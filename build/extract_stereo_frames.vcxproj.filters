@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\src\apps\extract_stereo_frames.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{97B48F11-2C11-39E8-BFCA-DD22CF2B6013}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

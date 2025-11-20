@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\bin\Debug\DLT_method.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\bin\Debug\DLT_method_v2.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\bin\Debug\Zhang_calculation.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\bin\Debug\Zhang_method.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\bin\Debug\centroid_angle.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\bin\Debug\decompose_P.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\bin\Debug\extract_stereo_frames.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\bin\Debug\stereo_calibrate.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\bin\Debug\stereo_onecam_measure.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\bin\Debug\stereo_realistic_measure.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\bin\Debug\stereo_testing.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

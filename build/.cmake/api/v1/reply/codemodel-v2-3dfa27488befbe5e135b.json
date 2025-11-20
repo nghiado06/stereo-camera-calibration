@@ -1,0 +1,624 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project04_CameraCalib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-7455bf570e1a4893685f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DLT_method::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DLT_method-Debug-998b897d83f4f065b12e.json",
+					"name" : "DLT_method",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DLT_method_v2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DLT_method_v2-Debug-fa59a0ffb24986a1aebd.json",
+					"name" : "DLT_method_v2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-e8cd94e4de32620337fa.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Zhang_calculation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Zhang_calculation-Debug-bddab5ba5102c5f71e7a.json",
+					"name" : "Zhang_calculation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Zhang_method::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Zhang_method-Debug-f1b561a4152a4cc6f07d.json",
+					"name" : "Zhang_method",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "centroid_angle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-centroid_angle-Debug-1b33f11968d21bb6bf7d.json",
+					"name" : "centroid_angle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "decompose_P::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-decompose_P-Debug-01127643c2a217f5ad0d.json",
+					"name" : "decompose_P",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "extract_stereo_frames::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-extract_stereo_frames-Debug-dc25ddea3caf5b826ad0.json",
+					"name" : "extract_stereo_frames",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_calibrate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_calibrate-Debug-3a1a7181b3e6f2ad7438.json",
+					"name" : "stereo_calibrate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_onecam_measure::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_onecam_measure-Debug-4765c71368b0b9cca4eb.json",
+					"name" : "stereo_onecam_measure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_realistic_measure::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_realistic_measure-Debug-acc1868673ed1ce429c0.json",
+					"name" : "stereo_realistic_measure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_testing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_testing-Debug-6c0953876df7594bd6b6.json",
+					"name" : "stereo_testing",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project04_CameraCalib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-7455bf570e1a4893685f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DLT_method::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DLT_method-Release-037b5762d5fe2ce53867.json",
+					"name" : "DLT_method",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DLT_method_v2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DLT_method_v2-Release-27e9a00a34dfdd5b5bb7.json",
+					"name" : "DLT_method_v2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-e8cd94e4de32620337fa.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Zhang_calculation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Zhang_calculation-Release-5750e5c763410534a03c.json",
+					"name" : "Zhang_calculation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Zhang_method::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Zhang_method-Release-813fd3ac8bac88dc8179.json",
+					"name" : "Zhang_method",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "centroid_angle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-centroid_angle-Release-55d27f9961a90b214e4f.json",
+					"name" : "centroid_angle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "decompose_P::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-decompose_P-Release-719f3014260b7ff7b16f.json",
+					"name" : "decompose_P",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "extract_stereo_frames::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-extract_stereo_frames-Release-dd4e94e87b9df86ff876.json",
+					"name" : "extract_stereo_frames",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_calibrate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_calibrate-Release-42baecb0f45823984c79.json",
+					"name" : "stereo_calibrate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_onecam_measure::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_onecam_measure-Release-eb4fe872cb1e061876e9.json",
+					"name" : "stereo_onecam_measure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_realistic_measure::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_realistic_measure-Release-36371766f3cbea554fe4.json",
+					"name" : "stereo_realistic_measure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_testing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_testing-Release-1ee8854885d21319350e.json",
+					"name" : "stereo_testing",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project04_CameraCalib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-7455bf570e1a4893685f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DLT_method::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DLT_method-MinSizeRel-56581fd9b8f35d1a22b2.json",
+					"name" : "DLT_method",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DLT_method_v2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DLT_method_v2-MinSizeRel-ec8fa0a6168597d33a7c.json",
+					"name" : "DLT_method_v2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-e8cd94e4de32620337fa.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Zhang_calculation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Zhang_calculation-MinSizeRel-3c117fd0d2e75964b65b.json",
+					"name" : "Zhang_calculation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Zhang_method::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Zhang_method-MinSizeRel-cdcc6eb07503e58b7e71.json",
+					"name" : "Zhang_method",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "centroid_angle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-centroid_angle-MinSizeRel-0851bde8244b45615dec.json",
+					"name" : "centroid_angle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "decompose_P::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-decompose_P-MinSizeRel-3a032ca439e40caf22ae.json",
+					"name" : "decompose_P",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "extract_stereo_frames::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-extract_stereo_frames-MinSizeRel-6e5976ac5aa4d6b4d6db.json",
+					"name" : "extract_stereo_frames",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_calibrate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_calibrate-MinSizeRel-92a65d3a3c7bde07a21d.json",
+					"name" : "stereo_calibrate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_onecam_measure::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_onecam_measure-MinSizeRel-103783f1c8e42b290ee0.json",
+					"name" : "stereo_onecam_measure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_realistic_measure::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_realistic_measure-MinSizeRel-eb75fc47f73349d51701.json",
+					"name" : "stereo_realistic_measure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_testing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_testing-MinSizeRel-896c70b28945e902a85c.json",
+					"name" : "stereo_testing",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project04_CameraCalib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-7455bf570e1a4893685f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DLT_method::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DLT_method-RelWithDebInfo-01749bc959356616a4ac.json",
+					"name" : "DLT_method",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DLT_method_v2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DLT_method_v2-RelWithDebInfo-c107cfcdf0f263699094.json",
+					"name" : "DLT_method_v2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-e8cd94e4de32620337fa.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Zhang_calculation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Zhang_calculation-RelWithDebInfo-2c437d8dc16c4c2f4ddc.json",
+					"name" : "Zhang_calculation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Zhang_method::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Zhang_method-RelWithDebInfo-d1b7eda84df3f7d43509.json",
+					"name" : "Zhang_method",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "centroid_angle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-centroid_angle-RelWithDebInfo-80d720fbe2f0a6a3eda0.json",
+					"name" : "centroid_angle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "decompose_P::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-decompose_P-RelWithDebInfo-63e908611db894a06611.json",
+					"name" : "decompose_P",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "extract_stereo_frames::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-extract_stereo_frames-RelWithDebInfo-5099ce48c7b71d4bf1bf.json",
+					"name" : "extract_stereo_frames",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_calibrate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_calibrate-RelWithDebInfo-44d956e41318de850daf.json",
+					"name" : "stereo_calibrate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_onecam_measure::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_onecam_measure-RelWithDebInfo-803e2b01fcced33d189a.json",
+					"name" : "stereo_onecam_measure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_realistic_measure::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_realistic_measure-RelWithDebInfo-9567ed666e6814135dbb.json",
+					"name" : "stereo_realistic_measure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_testing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_testing-RelWithDebInfo-223e05492e533123af55.json",
+					"name" : "stereo_testing",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build",
+		"source" : "D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

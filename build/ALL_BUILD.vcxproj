@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0B289076-0438-3F22-9AB3-BF34D1CC0660}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe -SD:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib -BD:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build --check-stamp-file D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Software\CMake\share\cmake-4.1\Modules\CMakeCInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeRCInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Compiler\MSVC.cmake;D:\Software\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Linker\MSVC-C.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Linker\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Linker\MSVC.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVConfig-version.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVModules.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\4.1.1\CMakeCCompiler.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\4.1.1\CMakeCXXCompiler.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\4.1.1\CMakeRCCompiler.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\4.1.1\CMakeSystem.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe -SD:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib -BD:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build --check-stamp-file D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Software\CMake\share\cmake-4.1\Modules\CMakeCInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeRCInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Compiler\MSVC.cmake;D:\Software\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Linker\MSVC-C.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Linker\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Linker\MSVC.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVConfig-version.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVModules.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\4.1.1\CMakeCCompiler.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\4.1.1\CMakeCXXCompiler.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\4.1.1\CMakeRCCompiler.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\4.1.1\CMakeSystem.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe -SD:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib -BD:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build --check-stamp-file D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Software\CMake\share\cmake-4.1\Modules\CMakeCInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeRCInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Compiler\MSVC.cmake;D:\Software\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Linker\MSVC-C.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Linker\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Linker\MSVC.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVConfig-version.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVModules.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\4.1.1\CMakeCCompiler.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\4.1.1\CMakeCXXCompiler.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\4.1.1\CMakeRCCompiler.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\4.1.1\CMakeSystem.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe -SD:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib -BD:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build --check-stamp-file D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Software\CMake\share\cmake-4.1\Modules\CMakeCInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeRCInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Compiler\MSVC.cmake;D:\Software\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Linker\MSVC-C.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Linker\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Linker\MSVC.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;D:\Software\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVConfig-version.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;D:\Software_Installers\OpenCV\opencv\build\x64\vc16\lib\OpenCVModules.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\4.1.1\CMakeCCompiler.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\4.1.1\CMakeCXXCompiler.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\4.1.1\CMakeRCCompiler.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\4.1.1\CMakeSystem.cmake;D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\ZERO_CHECK.vcxproj">
+      <Project>{05D78818-C1E6-3625-A6BB-8F8302FA816A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\DLT_method.vcxproj">
+      <Project>{46397B7B-72D4-3402-B4F1-58373ECBC247}</Project>
+      <Name>DLT_method</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\DLT_method_v2.vcxproj">
+      <Project>{989B3EC9-5AC7-354B-A562-7CE58CE76C6C}</Project>
+      <Name>DLT_method_v2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\Zhang_calculation.vcxproj">
+      <Project>{6D3EC95A-D199-34E4-8AAE-CCDD67E13AE6}</Project>
+      <Name>Zhang_calculation</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\Zhang_method.vcxproj">
+      <Project>{D48A5F69-4744-34E4-9393-72763D7DA4F8}</Project>
+      <Name>Zhang_method</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\centroid_angle.vcxproj">
+      <Project>{92734E5A-01CA-3C5F-909B-0BF621CFA489}</Project>
+      <Name>centroid_angle</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\decompose_P.vcxproj">
+      <Project>{BF000426-289A-3656-A7FA-8DC248B3D721}</Project>
+      <Name>decompose_P</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\extract_stereo_frames.vcxproj">
+      <Project>{3D1438C4-805F-3720-9E01-5FDCEAC41D5D}</Project>
+      <Name>extract_stereo_frames</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\stereo_calibrate.vcxproj">
+      <Project>{11D24D06-6355-3401-9DFF-47E302F334C0}</Project>
+      <Name>stereo_calibrate</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\stereo_onecam_measure.vcxproj">
+      <Project>{7E1A2E8C-1C2C-363F-A9E9-AE8C59974FC7}</Project>
+      <Name>stereo_onecam_measure</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\stereo_realistic_measure.vcxproj">
+      <Project>{8829FBD7-619E-3BD3-B95D-67E08832EA54}</Project>
+      <Name>stereo_realistic_measure</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Projects\Project04-CameraCalib\build\stereo_testing.vcxproj">
+      <Project>{A6741B30-7208-368E-AF26-D2282F160D95}</Project>
+      <Name>stereo_testing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

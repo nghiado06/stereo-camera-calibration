@@ -1,0 +1,66 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "stereo_realistic_measure::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "DLT_method_v2::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "stereo_onecam_measure::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Zhang_calculation::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "DLT_method::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Zhang_method::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "centroid_angle::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "decompose_P::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "extract_stereo_frames::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "stereo_calibrate::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "stereo_testing::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

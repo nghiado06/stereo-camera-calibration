@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Lectures\Lecture05_RGB\Lecture05_RGB_VSCode\src\apps\Euclidean_Distance_Ex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\doducnghia\Hcmut\Major\Computer_Vision\Lectures\Lecture05_RGB\Lecture05_RGB_VSCode\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0139CE99-D50B-3377-8932-B150FD3670DC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

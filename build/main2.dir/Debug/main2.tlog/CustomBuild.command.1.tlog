@@ -1,0 +1,10 @@
+^D:\DODUCNGHIA\HCMUT\MAJOR\COMPUTER_VISION\LECTURES\LECTURE05_RGB\LECTURE05_RGB_VSCODE\CMAKELISTS.TXT
+setlocal
+D:\Softwares\CMake\bin\cmake.exe -SD:/doducnghia/Hcmut/Major/Computer_Vision/Lectures/Lecture05_RGB/Lecture05_RGB_VSCode -BD:/doducnghia/Hcmut/Major/Computer_Vision/Lectures/Lecture05_RGB/Lecture05_RGB_VSCode/build --check-stamp-file D:/doducnghia/Hcmut/Major/Computer_Vision/Lectures/Lecture05_RGB/Lecture05_RGB_VSCode/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

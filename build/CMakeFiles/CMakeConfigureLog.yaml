@@ -1,0 +1,1893 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/"
+    found: "D:/Software/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "D:\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "D:\\Software\\SIMULIA\\Commands"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Software\\msys64\\ucrt64\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\lib"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin"
+        - "D:\\Software\\Git\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Software\\msys64\\mingw64\\bin"
+        - "D:\\Software\\msys64\\usr\\bin"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\.dotnet\\tools"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      ENV{INCLUDE}:
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\ATLMFC\\include"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include"
+        - "D:\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.23+b0019275e for .NET Framework
+      Build started 11/17/2025 4:17:43 PM.
+      
+      Project "D:\\doducnghia\\Hcmut\\Major\\Computer_Vision\\Projects\\Project04-CameraCalib\\build\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\doducnghia\\Hcmut\\Major\\Computer_Vision\\Projects\\Project04-CameraCalib\\build\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\doducnghia\\Hcmut\\Major\\Computer_Vision\\Projects\\Project04-CameraCalib\\build\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.70
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/4.1.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "D:/Windows Kits/10/bin/x86/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "D:/Software/SIMULIA/Commands/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Software/msys64/ucrt64/bin/"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/bin/"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/lib/"
+      - "D:/Software/CMake/bin/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/"
+      - "D:/Software/Git/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/Software/msys64/mingw64/bin/"
+      - "D:/Software/msys64/usr/bin/"
+      - "D:/Software_Installers/OpenOCD/xpack-openocd-0.12.0-6-win32-x64/xpack-openocd-0.12.0-6/bin/"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Software/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/.dotnet/tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/link.com"
+    found: "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "D:\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "D:\\Software\\SIMULIA\\Commands"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Software\\msys64\\ucrt64\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\lib"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin"
+        - "D:\\Software\\Git\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Software\\msys64\\mingw64\\bin"
+        - "D:\\Software\\msys64\\usr\\bin"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\.dotnet\\tools"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "D:/Windows Kits/10/bin/x86/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "D:/Software/SIMULIA/Commands/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Software/msys64/ucrt64/bin/"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/bin/"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/lib/"
+      - "D:/Software/CMake/bin/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/"
+      - "D:/Software/Git/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/Software/msys64/mingw64/bin/"
+      - "D:/Software/msys64/usr/bin/"
+      - "D:/Software_Installers/OpenOCD/xpack-openocd-0.12.0-6-win32-x64/xpack-openocd-0.12.0-6/bin/"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Software/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/.dotnet/tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.com"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.exe"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x86/lld-link"
+      - "D:/Windows Kits/10/bin/x86/lld-link.com"
+      - "D:/Windows Kits/10/bin/x86/lld-link.exe"
+      - "D:/Windows Kits/10/bin/x86/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link"
+      - "D:/Software/SIMULIA/Commands/lld-link.com"
+      - "D:/Software/SIMULIA/Commands/lld-link.exe"
+      - "D:/Software/SIMULIA/Commands/lld-link"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link.com"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "D:/Software/msys64/ucrt64/bin/lld-link.com"
+      - "D:/Software/msys64/ucrt64/bin/lld-link.exe"
+      - "D:/Software/msys64/ucrt64/bin/lld-link"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/bin/lld-link.com"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/bin/lld-link.exe"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/bin/lld-link"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/lib/lld-link.com"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/lib/lld-link.exe"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/lib/lld-link"
+      - "D:/Software/CMake/bin/lld-link.com"
+      - "D:/Software/CMake/bin/lld-link.exe"
+      - "D:/Software/CMake/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/lld-link.com"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/lld-link.exe"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/lld-link"
+      - "D:/Software/Git/Git/cmd/lld-link.com"
+      - "D:/Software/Git/Git/cmd/lld-link.exe"
+      - "D:/Software/Git/Git/cmd/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link"
+      - "D:/Software/msys64/mingw64/bin/lld-link.com"
+      - "D:/Software/msys64/mingw64/bin/lld-link.exe"
+      - "D:/Software/msys64/mingw64/bin/lld-link"
+      - "D:/Software/msys64/usr/bin/lld-link.com"
+      - "D:/Software/msys64/usr/bin/lld-link.exe"
+      - "D:/Software/msys64/usr/bin/lld-link"
+      - "D:/Software_Installers/OpenOCD/xpack-openocd-0.12.0-6-win32-x64/xpack-openocd-0.12.0-6/bin/lld-link.com"
+      - "D:/Software_Installers/OpenOCD/xpack-openocd-0.12.0-6-win32-x64/xpack-openocd-0.12.0-6/bin/lld-link.exe"
+      - "D:/Software_Installers/OpenOCD/xpack-openocd-0.12.0-6-win32-x64/xpack-openocd-0.12.0-6/bin/lld-link"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/lld-link.com"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/lld-link.exe"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/lld-link"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/lld-link.com"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/lld-link.exe"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/lld-link"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/Software/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Software/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Software/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Admin/.dotnet/tools/lld-link.com"
+      - "C:/Users/Admin/.dotnet/tools/lld-link.exe"
+      - "C:/Users/Admin/.dotnet/tools/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "D:\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "D:\\Software\\SIMULIA\\Commands"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Software\\msys64\\ucrt64\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\lib"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin"
+        - "D:\\Software\\Git\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Software\\msys64\\mingw64\\bin"
+        - "D:\\Software\\msys64\\usr\\bin"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\.dotnet\\tools"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "D:/Windows Kits/10/bin/x86/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "D:/Software/SIMULIA/Commands/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Software/msys64/ucrt64/bin/"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/bin/"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/lib/"
+      - "D:/Software/CMake/bin/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/"
+      - "D:/Software/Git/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/Software/msys64/mingw64/bin/"
+      - "D:/Software/msys64/usr/bin/"
+      - "D:/Software_Installers/OpenOCD/xpack-openocd-0.12.0-6-win32-x64/xpack-openocd-0.12.0-6/bin/"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Software/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/.dotnet/tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/link.com"
+    found: "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "D:\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "D:\\Software\\SIMULIA\\Commands"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Software\\msys64\\ucrt64\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\lib"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin"
+        - "D:\\Software\\Git\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Software\\msys64\\mingw64\\bin"
+        - "D:\\Software\\msys64\\usr\\bin"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\.dotnet\\tools"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "D:/Windows Kits/10/bin/x86/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "D:/Software/SIMULIA/Commands/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Software/msys64/ucrt64/bin/"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/bin/"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/lib/"
+      - "D:/Software/CMake/bin/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/"
+      - "D:/Software/Git/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/Software/msys64/mingw64/bin/"
+      - "D:/Software/msys64/usr/bin/"
+      - "D:/Software_Installers/OpenOCD/xpack-openocd-0.12.0-6-win32-x64/xpack-openocd-0.12.0-6/bin/"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Software/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/.dotnet/tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/mt.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/mt.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/mt"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/mt.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/mt.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/mt"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/mt.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/mt.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/mt"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/mt.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/mt"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/mt.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/mt.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/mt"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/mt.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/mt.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/mt"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x86/mt.com"
+    found: "D:/Windows Kits/10/bin/10.0.26100.0/x86/mt.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "D:\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "D:\\Software\\SIMULIA\\Commands"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Software\\msys64\\ucrt64\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\lib"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin"
+        - "D:\\Software\\Git\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Software\\msys64\\mingw64\\bin"
+        - "D:\\Software\\msys64\\usr\\bin"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\.dotnet\\tools"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "D:/Windows Kits/10/bin/x86/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "D:/Software/SIMULIA/Commands/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Software/msys64/ucrt64/bin/"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/bin/"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/lib/"
+      - "D:/Software/CMake/bin/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/"
+      - "D:/Software/Git/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/Software/msys64/mingw64/bin/"
+      - "D:/Software/msys64/usr/bin/"
+      - "D:/Software_Installers/OpenOCD/xpack-openocd-0.12.0-6-win32-x64/xpack-openocd-0.12.0-6/bin/"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Software/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/.dotnet/tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/lib.com"
+    found: "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "D:\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "D:\\Software\\SIMULIA\\Commands"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Software\\msys64\\ucrt64\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\lib"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin"
+        - "D:\\Software\\Git\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Software\\msys64\\mingw64\\bin"
+        - "D:\\Software\\msys64\\usr\\bin"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\.dotnet\\tools"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/"
+    found: "D:/Software/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "D:\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "D:\\Software\\SIMULIA\\Commands"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Software\\msys64\\ucrt64\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\lib"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin"
+        - "D:\\Software\\Git\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Software\\msys64\\mingw64\\bin"
+        - "D:\\Software\\msys64\\usr\\bin"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\.dotnet\\tools"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      ENV{INCLUDE}:
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\ATLMFC\\include"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include"
+        - "D:\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.23+b0019275e for .NET Framework
+      Build started 11/17/2025 4:17:46 PM.
+      
+      Project "D:\\doducnghia\\Hcmut\\Major\\Computer_Vision\\Projects\\Project04-CameraCalib\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\doducnghia\\Hcmut\\Major\\Computer_Vision\\Projects\\Project04-CameraCalib\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\doducnghia\\Hcmut\\Major\\Computer_Vision\\Projects\\Project04-CameraCalib\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.83
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/4.1.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "D:/Windows Kits/10/bin/x86/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "D:/Software/SIMULIA/Commands/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Software/msys64/ucrt64/bin/"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/bin/"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/lib/"
+      - "D:/Software/CMake/bin/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/"
+      - "D:/Software/Git/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/Software/msys64/mingw64/bin/"
+      - "D:/Software/msys64/usr/bin/"
+      - "D:/Software_Installers/OpenOCD/xpack-openocd-0.12.0-6-win32-x64/xpack-openocd-0.12.0-6/bin/"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Software/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/.dotnet/tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.com"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.exe"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x86/lld-link"
+      - "D:/Windows Kits/10/bin/x86/lld-link.com"
+      - "D:/Windows Kits/10/bin/x86/lld-link.exe"
+      - "D:/Windows Kits/10/bin/x86/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link"
+      - "D:/Software/SIMULIA/Commands/lld-link.com"
+      - "D:/Software/SIMULIA/Commands/lld-link.exe"
+      - "D:/Software/SIMULIA/Commands/lld-link"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link.com"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "D:/Software/msys64/ucrt64/bin/lld-link.com"
+      - "D:/Software/msys64/ucrt64/bin/lld-link.exe"
+      - "D:/Software/msys64/ucrt64/bin/lld-link"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/bin/lld-link.com"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/bin/lld-link.exe"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/bin/lld-link"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/lib/lld-link.com"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/lib/lld-link.exe"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/lib/lld-link"
+      - "D:/Software/CMake/bin/lld-link.com"
+      - "D:/Software/CMake/bin/lld-link.exe"
+      - "D:/Software/CMake/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/lld-link.com"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/lld-link.exe"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/lld-link"
+      - "D:/Software/Git/Git/cmd/lld-link.com"
+      - "D:/Software/Git/Git/cmd/lld-link.exe"
+      - "D:/Software/Git/Git/cmd/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link"
+      - "D:/Software/msys64/mingw64/bin/lld-link.com"
+      - "D:/Software/msys64/mingw64/bin/lld-link.exe"
+      - "D:/Software/msys64/mingw64/bin/lld-link"
+      - "D:/Software/msys64/usr/bin/lld-link.com"
+      - "D:/Software/msys64/usr/bin/lld-link.exe"
+      - "D:/Software/msys64/usr/bin/lld-link"
+      - "D:/Software_Installers/OpenOCD/xpack-openocd-0.12.0-6-win32-x64/xpack-openocd-0.12.0-6/bin/lld-link.com"
+      - "D:/Software_Installers/OpenOCD/xpack-openocd-0.12.0-6-win32-x64/xpack-openocd-0.12.0-6/bin/lld-link.exe"
+      - "D:/Software_Installers/OpenOCD/xpack-openocd-0.12.0-6-win32-x64/xpack-openocd-0.12.0-6/bin/lld-link"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/lld-link.com"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/lld-link.exe"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/lld-link"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/lld-link.com"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/lld-link.exe"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/lld-link"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/Software/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Software/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Software/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Admin/.dotnet/tools/lld-link.com"
+      - "C:/Users/Admin/.dotnet/tools/lld-link.exe"
+      - "C:/Users/Admin/.dotnet/tools/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "D:\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "D:\\Software\\SIMULIA\\Commands"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Software\\msys64\\ucrt64\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\lib"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin"
+        - "D:\\Software\\Git\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Software\\msys64\\mingw64\\bin"
+        - "D:\\Software\\msys64\\usr\\bin"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\.dotnet\\tools"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "D:/Windows Kits/10/bin/x86/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "D:/Software/SIMULIA/Commands/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Software/msys64/ucrt64/bin/"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/bin/"
+      - "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/lib/"
+      - "D:/Software/CMake/bin/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/"
+      - "D:/Software/Git/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/Software/msys64/mingw64/bin/"
+      - "D:/Software/msys64/usr/bin/"
+      - "D:/Software_Installers/OpenOCD/xpack-openocd-0.12.0-6-win32-x64/xpack-openocd-0.12.0-6/bin/"
+      - "D:/Software_Installers/ARM GNU Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Software/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/.dotnet/tools/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/Software/CMake/bin/"
+      - "D:/Software/CMake/sbin/"
+      - "D:/Software/CMake/"
+      - "C:/Program Files/Project04_CameraCalib/bin/"
+      - "C:/Program Files/Project04_CameraCalib/sbin/"
+      - "C:/Program Files/Project04_CameraCalib/"
+    searched_directories:
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/rc.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/rc.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/rc"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/rc.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/rc.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/rc"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/rc.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/rc.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/rc"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/rc.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/rc"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/rc.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/rc.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/rc"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/rc.com"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/rc.exe"
+      - "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/rc"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x86/rc.com"
+    found: "D:/Windows Kits/10/bin/10.0.26100.0/x86/rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "D:\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "D:\\Software\\SIMULIA\\Commands"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Software\\msys64\\ucrt64\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\lib"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin"
+        - "D:\\Software\\Git\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Software\\msys64\\mingw64\\bin"
+        - "D:\\Software\\msys64\\usr\\bin"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\.dotnet\\tools"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/Project04_CameraCalib"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Software/CMake"
+        - "C:/Program Files/Project04_CameraCalib"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/CMakeScratch/TryCompile-iif266"
+      binary: "D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/CMakeScratch/TryCompile-iif266"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/CMakeScratch/TryCompile-iif266'
+        
+        Run Build Command(s): "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_88da9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 11/17/2025 4:17:47 PM.
+        
+        Project "D:\\doducnghia\\Hcmut\\Major\\Computer_Vision\\Projects\\Project04-CameraCalib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iif266\\cmTC_88da9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_88da9.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\doducnghia\\Hcmut\\Major\\Computer_Vision\\Projects\\Project04-CameraCalib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iif266\\Debug\\".
+          Creating directory "cmTC_88da9.dir\\Debug\\cmTC_88da9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_88da9.dir\\Debug\\cmTC_88da9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_88da9.dir\\Debug\\cmTC_88da9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_88da9.dir\\Debug\\\\" /Fd"cmTC_88da9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Software\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_88da9.dir\\Debug\\\\" /Fd"cmTC_88da9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Software\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\link.exe /OUT:"D:\\doducnghia\\Hcmut\\Major\\Computer_Vision\\Projects\\Project04-CameraCalib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iif266\\Debug\\cmTC_88da9.exe" /INCREMENTAL /ILK:"cmTC_88da9.dir\\Debug\\cmTC_88da9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/CMakeScratch/TryCompile-iif266/Debug/cmTC_88da9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/CMakeScratch/TryCompile-iif266/Debug/cmTC_88da9.lib" /MACHINE:X64  /machine:x64 cmTC_88da9.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_88da9.vcxproj -> D:\\doducnghia\\Hcmut\\Major\\Computer_Vision\\Projects\\Project04-CameraCalib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iif266\\Debug\\cmTC_88da9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_88da9.dir\\Debug\\cmTC_88da9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_88da9.dir\\Debug\\cmTC_88da9.tlog\\cmTC_88da9.lastbuildstate".
+        Done Building Project "D:\\doducnghia\\Hcmut\\Major\\Computer_Vision\\Projects\\Project04-CameraCalib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iif266\\cmTC_88da9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.22
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX86/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX86/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/CMakeScratch/TryCompile-50pjot"
+      binary: "D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/CMakeScratch/TryCompile-50pjot"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/CMakeScratch/TryCompile-50pjot'
+        
+        Run Build Command(s): "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_36ec7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 11/17/2025 4:17:49 PM.
+        
+        Project "D:\\doducnghia\\Hcmut\\Major\\Computer_Vision\\Projects\\Project04-CameraCalib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50pjot\\cmTC_36ec7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_36ec7.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\doducnghia\\Hcmut\\Major\\Computer_Vision\\Projects\\Project04-CameraCalib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50pjot\\Debug\\".
+          Creating directory "cmTC_36ec7.dir\\Debug\\cmTC_36ec7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_36ec7.dir\\Debug\\cmTC_36ec7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_36ec7.dir\\Debug\\cmTC_36ec7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_36ec7.dir\\Debug\\\\" /Fd"cmTC_36ec7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Software\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_36ec7.dir\\Debug\\\\" /Fd"cmTC_36ec7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Software\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\link.exe /OUT:"D:\\doducnghia\\Hcmut\\Major\\Computer_Vision\\Projects\\Project04-CameraCalib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50pjot\\Debug\\cmTC_36ec7.exe" /INCREMENTAL /ILK:"cmTC_36ec7.dir\\Debug\\cmTC_36ec7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/CMakeScratch/TryCompile-50pjot/Debug/cmTC_36ec7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/CMakeScratch/TryCompile-50pjot/Debug/cmTC_36ec7.lib" /MACHINE:X64  /machine:x64 cmTC_36ec7.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_36ec7.vcxproj -> D:\\doducnghia\\Hcmut\\Major\\Computer_Vision\\Projects\\Project04-CameraCalib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50pjot\\Debug\\cmTC_36ec7.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_36ec7.dir\\Debug\\cmTC_36ec7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_36ec7.dir\\Debug\\cmTC_36ec7.tlog\\cmTC_36ec7.lastbuildstate".
+        Done Building Project "D:\\doducnghia\\Hcmut\\Major\\Computer_Vision\\Projects\\Project04-CameraCalib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50pjot\\cmTC_36ec7.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.82
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX86/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Software/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Software/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX86/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:6 (find_package)"
+    name: "OpenCV"
+    configs:
+      -
+        filename: "OpenCVConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "opencv-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "OpenCV"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/pkgRedirects/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/CMakeFiles/pkgRedirects/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/bin/10.0.26100.0/x86/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/bin/10.0.26100.0/x86/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/bin/x86/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Windows Kits/10/bin/x86/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework/v4.0.30319/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework/v4.0.30319/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/Common7/IDE/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/Common7/Tools/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/Microsoft Visual Studio/2022/Community/Common7/Tools/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/SIMULIA/Commands/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/SIMULIA/Commands/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft MPI/Bin/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft MPI/Bin/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/msys64/ucrt64/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software/msys64/ucrt64/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "D:/Software_Installers/OpenCV/opencv/build/x64/vc16/lib/OpenCVConfig.cmake"
+      mode: "config"
+      version: "4.10.0"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "D:\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "D:\\Software\\SIMULIA\\Commands"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:\\Software\\msys64\\ucrt64\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Software_Installers\\OpenCV\\opencv\\build\\x64\\vc16\\lib"
+        - "D:\\Software\\CMake\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\bin"
+        - "D:\\Software\\Git\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Software\\msys64\\mingw64\\bin"
+        - "D:\\Software\\msys64\\usr\\bin"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software_Installers\\ARM GNU Toolchain\\arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Software\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\.dotnet\\tools"
+        - "D:\\Software_Installers\\OpenOCD\\xpack-openocd-0.12.0-6-win32-x64\\xpack-openocd-0.12.0-6\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Software\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/Project04_CameraCalib"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Software/CMake"
+        - "C:/Program Files/Project04_CameraCalib"
+...

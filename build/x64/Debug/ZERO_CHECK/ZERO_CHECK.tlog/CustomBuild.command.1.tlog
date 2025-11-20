@@ -1,0 +1,10 @@
+^D:\DODUCNGHIA\HCMUT\MAJOR\COMPUTER_VISION\PROJECTS\PROJECT04-CAMERACALIB\BUILD\CMAKEFILES\2EAB8B665885D8E64BC39CB7316CB9B0\GENERATE.STAMP.RULE
+setlocal
+D:\Software\CMake\bin\cmake.exe -SD:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib -BD:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/doducnghia/Hcmut/Major/Computer_Vision/Projects/Project04-CameraCalib/build/Project04_CameraCalib.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
